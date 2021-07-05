@@ -1,0 +1,230 @@
+a{
+    color: black;!important;
+}
+
+.btn-light{
+    background-color: white;!important;
+    border: 1px solid #ced4da;!important;
+    color: #6c757d;
+    /*#999*/
+}
+.page-link {
+    color: black;
+    }
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+    /*color: #999;*/
+    color: #495057;
+}
+#find{
+    height: 38px;
+}
+
+.col-md-3{
+    /*padding-top: 10px;*/
+    padding-bottom: 10px;
+    /*min-width: 229px;*/
+}
+.card{
+    text-align: center;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+
+}
+.info-wrap {
+    overflow: hidden;
+    padding: 5px;
+    border-top: 1px solid #eee;
+    text-overflow: ellipsis;
+}
+
+.managebar{
+    padding-bottom: 50px;
+}
+.back{
+    padding-top: 5px;
+}
+
+.filters{
+    margin-top: 1.5rem;
+
+}
+
+@media only screen and (max-width: 970px){
+    .page-title {
+        font-size: 1.5rem;
+
+    }
+}
+@media only screen and (max-width: 560px){
+    .page-title {
+        font-size: 1.5rem;
+    }
+    #mygtukai{
+        width: auto;
+        padding-right: 0px;
+        /*padding: 2px 2px 2px 2px;*/
+    }
+
+}
+.page-item.active .page-link {
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+}
+.green{
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 600px;
+        margin: 1.75rem auto;
+    }
+
+}
+@media (min-width: 992px) {
+    .modal-lg, .modal-xl {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 510px) {
+    .table.dataTable {
+        font-size: 13px;!important;
+    }
+    .input-group-text
+    {
+        font-size: 13px;
+    }
+    .form-control{
+        font-size: 13px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+    .table td, .table th {
+        font-size: 13px;
+    }
+    .modal-dialog {
+        /*max-width: 600px;*/
+        /*margin: 1.75rem auto;*/
+    }
+    .modal-body {
+        /*padding-left: 2px;!important;*/
+        /*padding-right: 2px;!important;*/
+        /*font-size: small;*/
+    }
+    #find{
+        height: auto;!important;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    h2{
+        font-size: 1.2rem;
+        padding-top: 5px;
+    }
+    .back{
+        padding-top: 0px;!important;
+    }
+    .filters{
+        margin-top: 0.8rem;
+
+    }
+
+}
+@media (max-width: 450px) {
+.table.dataTable {
+    font-size: 12px;
+}
+    .input-group-text
+    {
+        font-size: 12px;
+    }
+    .form-control{
+        font-size: 12px;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+    .col-lg-8{
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+}
+
+.lgnd{
+    font-size: 1.2rem;
+}
+@media (max-width: 575px) {
+h3{
+    font-size: 1.5rem;
+}
+    .checkingtime
+    {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        /*max-width: 200px;*/
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .lgnd{
+        font-size: 1rem;
+    }
+}
+.no-sort::after { display: none!important; }
+.no-sort::before { display: none!important; }
+
+.no-sort {
+    pointer-events: none !important;
+    cursor: default !important;
+    padding-right: 15px;
+}
+.table thead th {
+    border-bottom: 0!important;
+}
+
+
+table.dataTable>thead>tr>th:not(.sorting_disabled), table.dataTable>thead>tr>td:not(.sorting_disabled) {
+    padding-right: 25px!important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    background-color: lightseagreen;!important;
+    border-color: lightseagreen;!important;
+}
+
+/*@media (max-width: 450px) {*/
+/*    table.dataTable>thead>tr>th:not(.sorting_disabled), table.dataTable>thead>tr>td:not(.sorting_disabled) {*/
+/*        padding-right: 10px!important;*/
+/*    }*/
+/*}*/
+
+@media (max-width: 290px) {
+    .card-body{
+        font-size: 13px;
+    }
+    .card-title{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 240px) {
+#mygtukai{
+    /*padding: 0;*/
+    width: auto;
+}
+    #pavadinimas{
+        padding-left: 0;
+    }
+
+}
+.form-control{
+    color: #6c757d;
+}
+

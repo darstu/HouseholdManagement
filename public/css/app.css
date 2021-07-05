@@ -1,0 +1,22 @@
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;!important;
+}
+.list-group-item.active{
+    background-color: #8fd19e;
+    border-color: #8fd19e;
+    color: white;!important;
+}
+
+.header {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.pad {
+    padding-top: 30px;
+}
+
